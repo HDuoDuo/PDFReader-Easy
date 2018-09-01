@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42BBDB01213A4D3B00080BAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDB00213A4D3B00080BAC /* AppDelegate.m */; };
+		42BBDB04213A4D3B00080BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDB03213A4D3B00080BAC /* ViewController.m */; };
+		42BBDB07213A4D3B00080BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB05213A4D3B00080BAC /* Main.storyboard */; };
+		42BBDB09213A4D3B00080BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB08213A4D3B00080BAC /* Assets.xcassets */; };
+		42BBDB0C213A4D3B00080BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB0A213A4D3B00080BAC /* LaunchScreen.storyboard */; };
+		42BBDB0F213A4D3C00080BAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDB0E213A4D3C00080BAC /* main.m */; };
+		42BBDB19213A4D3C00080BAC /* PDFReader_EasyToReadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDB18213A4D3C00080BAC /* PDFReader_EasyToReadTests.m */; };
+		42BBDB24213A4D3C00080BAC /* PDFReader_EasyToReadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDB23213A4D3C00080BAC /* PDFReader_EasyToReadUITests.m */; };
+		42BBDB46213A4D9D00080BAC /* ReaderRibbonOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB33213A4D9D00080BAC /* ReaderRibbonOff@2x.png */; };
+		42BBDB47213A4D9D00080BAC /* ReaderTabHistory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB34213A4D9D00080BAC /* ReaderTabHistory@2x.png */; };
+		42BBDB48213A4D9D00080BAC /* ReaderOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB35213A4D9D00080BAC /* ReaderOutline@2x.png */; };
+		42BBDB49213A4D9D00080BAC /* ReaderCropEven@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB36213A4D9D00080BAC /* ReaderCropEven@2x.png */; };
+		42BBDB4A213A4D9D00080BAC /* ReaderHistory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB37213A4D9D00080BAC /* ReaderHistory@2x.png */; };
+		42BBDB4B213A4D9D00080BAC /* ReaderBrightness@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB38213A4D9D00080BAC /* ReaderBrightness@2x.png */; };
+		42BBDB4C213A4D9D00080BAC /* ReaderFolder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB39213A4D9D00080BAC /* ReaderFolder@2x.png */; };
+		42BBDB4D213A4D9D00080BAC /* ReaderForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3A213A4D9D00080BAC /* ReaderForward@2x.png */; };
+		42BBDB4E213A4D9D00080BAC /* ReaderCropBoth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3B213A4D9D00080BAC /* ReaderCropBoth@2x.png */; };
+		42BBDB4F213A4D9D00080BAC /* ReaderSetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3C213A4D9D00080BAC /* ReaderSetting@2x.png */; };
+		42BBDB50213A4D9D00080BAC /* ReaderDocuments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3D213A4D9D00080BAC /* ReaderDocuments@2x.png */; };
+		42BBDB51213A4D9D00080BAC /* ReaderRibbonOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3E213A4D9D00080BAC /* ReaderRibbonOn@2x.png */; };
+		42BBDB52213A4D9D00080BAC /* ReaderCropOdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3F213A4D9D00080BAC /* ReaderCropOdd@2x.png */; };
+		42BBDB53213A4D9D00080BAC /* ReaderBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB40213A4D9D00080BAC /* ReaderBack@2x.png */; };
+		42BBDB54213A4D9D00080BAC /* ReaderHome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB41213A4D9D00080BAC /* ReaderHome@2x.png */; };
+		42BBDB55213A4D9D00080BAC /* ReaderFind@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB42213A4D9D00080BAC /* ReaderFind@2x.png */; };
+		42BBDB56213A4D9D00080BAC /* ReaderCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB43213A4D9D00080BAC /* ReaderCheck@2x.png */; };
+		42BBDB57213A4D9D00080BAC /* ReaderCrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB44213A4D9D00080BAC /* ReaderCrop@2x.png */; };
+		42BBDB58213A4D9D00080BAC /* ReaderCropNone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB45213A4D9D00080BAC /* ReaderCropNone@2x.png */; };
+		42BBDB5C213A4DBD00080BAC /* Instruments 用户指南.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB5A213A4DBD00080BAC /* Instruments 用户指南.pdf */; };
+		42BBDB5D213A4DBD00080BAC /* Functional Programming in Swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB5B213A4DBD00080BAC /* Functional Programming in Swift.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42BBDB15213A4D3C00080BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BBDAF4213A4D3B00080BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BBDAFB213A4D3B00080BAC;
+			remoteInfo = "PDFReader-EasyToRead";
+		};
+		42BBDB20213A4D3C00080BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BBDAF4213A4D3B00080BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BBDAFB213A4D3B00080BAC;
+			remoteInfo = "PDFReader-EasyToRead";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42BBDAFC213A4D3B00080BAC /* PDFReader-EasyToRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDFReader-EasyToRead.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BBDAFF213A4D3B00080BAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42BBDB00213A4D3B00080BAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42BBDB02213A4D3B00080BAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42BBDB03213A4D3B00080BAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42BBDB06213A4D3B00080BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42BBDB08213A4D3B00080BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42BBDB0B213A4D3B00080BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42BBDB0D213A4D3C00080BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BBDB0E213A4D3C00080BAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42BBDB14213A4D3C00080BAC /* PDFReader-EasyToReadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PDFReader-EasyToReadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BBDB18213A4D3C00080BAC /* PDFReader_EasyToReadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFReader_EasyToReadTests.m; sourceTree = "<group>"; };
+		42BBDB1A213A4D3C00080BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BBDB1F213A4D3C00080BAC /* PDFReader-EasyToReadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PDFReader-EasyToReadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BBDB23213A4D3C00080BAC /* PDFReader_EasyToReadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFReader_EasyToReadUITests.m; sourceTree = "<group>"; };
+		42BBDB25213A4D3C00080BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BBDB33213A4D9D00080BAC /* ReaderRibbonOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderRibbonOff@2x.png"; sourceTree = "<group>"; };
+		42BBDB34213A4D9D00080BAC /* ReaderTabHistory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderTabHistory@2x.png"; sourceTree = "<group>"; };
+		42BBDB35213A4D9D00080BAC /* ReaderOutline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderOutline@2x.png"; sourceTree = "<group>"; };
+		42BBDB36213A4D9D00080BAC /* ReaderCropEven@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderCropEven@2x.png"; sourceTree = "<group>"; };
+		42BBDB37213A4D9D00080BAC /* ReaderHistory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderHistory@2x.png"; sourceTree = "<group>"; };
+		42BBDB38213A4D9D00080BAC /* ReaderBrightness@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderBrightness@2x.png"; sourceTree = "<group>"; };
+		42BBDB39213A4D9D00080BAC /* ReaderFolder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderFolder@2x.png"; sourceTree = "<group>"; };
+		42BBDB3A213A4D9D00080BAC /* ReaderForward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderForward@2x.png"; sourceTree = "<group>"; };
+		42BBDB3B213A4D9D00080BAC /* ReaderCropBoth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderCropBoth@2x.png"; sourceTree = "<group>"; };
+		42BBDB3C213A4D9D00080BAC /* ReaderSetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderSetting@2x.png"; sourceTree = "<group>"; };
+		42BBDB3D213A4D9D00080BAC /* ReaderDocuments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderDocuments@2x.png"; sourceTree = "<group>"; };
+		42BBDB3E213A4D9D00080BAC /* ReaderRibbonOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderRibbonOn@2x.png"; sourceTree = "<group>"; };
+		42BBDB3F213A4D9D00080BAC /* ReaderCropOdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderCropOdd@2x.png"; sourceTree = "<group>"; };
+		42BBDB40213A4D9D00080BAC /* ReaderBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderBack@2x.png"; sourceTree = "<group>"; };
+		42BBDB41213A4D9D00080BAC /* ReaderHome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderHome@2x.png"; sourceTree = "<group>"; };
+		42BBDB42213A4D9D00080BAC /* ReaderFind@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderFind@2x.png"; sourceTree = "<group>"; };
+		42BBDB43213A4D9D00080BAC /* ReaderCheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderCheck@2x.png"; sourceTree = "<group>"; };
+		42BBDB44213A4D9D00080BAC /* ReaderCrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderCrop@2x.png"; sourceTree = "<group>"; };
+		42BBDB45213A4D9D00080BAC /* ReaderCropNone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderCropNone@2x.png"; sourceTree = "<group>"; };
+		42BBDB5A213A4DBD00080BAC /* Instruments 用户指南.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Instruments 用户指南.pdf"; sourceTree = "<group>"; };
+		42BBDB5B213A4DBD00080BAC /* Functional Programming in Swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Functional Programming in Swift.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42BBDAF9213A4D3B00080BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDB11213A4D3C00080BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDB1C213A4D3C00080BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42BBDAF3213A4D3B00080BAC = {
+			isa = PBXGroup;
+			children = (
+				42BBDAFE213A4D3B00080BAC /* PDFReader-EasyToRead */,
+				42BBDB17213A4D3C00080BAC /* PDFReader-EasyToReadTests */,
+				42BBDB22213A4D3C00080BAC /* PDFReader-EasyToReadUITests */,
+				42BBDAFD213A4D3B00080BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42BBDAFD213A4D3B00080BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDAFC213A4D3B00080BAC /* PDFReader-EasyToRead.app */,
+				42BBDB14213A4D3C00080BAC /* PDFReader-EasyToReadTests.xctest */,
+				42BBDB1F213A4D3C00080BAC /* PDFReader-EasyToReadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42BBDAFE213A4D3B00080BAC /* PDFReader-EasyToRead */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDB31213A4D9D00080BAC /* Resources */,
+				42BBDAFF213A4D3B00080BAC /* AppDelegate.h */,
+				42BBDB00213A4D3B00080BAC /* AppDelegate.m */,
+				42BBDB02213A4D3B00080BAC /* ViewController.h */,
+				42BBDB03213A4D3B00080BAC /* ViewController.m */,
+				42BBDB05213A4D3B00080BAC /* Main.storyboard */,
+				42BBDB08213A4D3B00080BAC /* Assets.xcassets */,
+				42BBDB0A213A4D3B00080BAC /* LaunchScreen.storyboard */,
+				42BBDB0D213A4D3C00080BAC /* Info.plist */,
+				42BBDB0E213A4D3C00080BAC /* main.m */,
+			);
+			path = "PDFReader-EasyToRead";
+			sourceTree = "<group>";
+		};
+		42BBDB17213A4D3C00080BAC /* PDFReader-EasyToReadTests */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDB18213A4D3C00080BAC /* PDFReader_EasyToReadTests.m */,
+				42BBDB1A213A4D3C00080BAC /* Info.plist */,
+			);
+			path = "PDFReader-EasyToReadTests";
+			sourceTree = "<group>";
+		};
+		42BBDB22213A4D3C00080BAC /* PDFReader-EasyToReadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDB23213A4D3C00080BAC /* PDFReader_EasyToReadUITests.m */,
+				42BBDB25213A4D3C00080BAC /* Info.plist */,
+			);
+			path = "PDFReader-EasyToReadUITests";
+			sourceTree = "<group>";
+		};
+		42BBDB31213A4D9D00080BAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDB59213A4DBD00080BAC /* PDF_Files */,
+				42BBDB32213A4D9D00080BAC /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		42BBDB32213A4D9D00080BAC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDB33213A4D9D00080BAC /* ReaderRibbonOff@2x.png */,
+				42BBDB34213A4D9D00080BAC /* ReaderTabHistory@2x.png */,
+				42BBDB35213A4D9D00080BAC /* ReaderOutline@2x.png */,
+				42BBDB36213A4D9D00080BAC /* ReaderCropEven@2x.png */,
+				42BBDB37213A4D9D00080BAC /* ReaderHistory@2x.png */,
+				42BBDB38213A4D9D00080BAC /* ReaderBrightness@2x.png */,
+				42BBDB39213A4D9D00080BAC /* ReaderFolder@2x.png */,
+				42BBDB3A213A4D9D00080BAC /* ReaderForward@2x.png */,
+				42BBDB3B213A4D9D00080BAC /* ReaderCropBoth@2x.png */,
+				42BBDB3C213A4D9D00080BAC /* ReaderSetting@2x.png */,
+				42BBDB3D213A4D9D00080BAC /* ReaderDocuments@2x.png */,
+				42BBDB3E213A4D9D00080BAC /* ReaderRibbonOn@2x.png */,
+				42BBDB3F213A4D9D00080BAC /* ReaderCropOdd@2x.png */,
+				42BBDB40213A4D9D00080BAC /* ReaderBack@2x.png */,
+				42BBDB41213A4D9D00080BAC /* ReaderHome@2x.png */,
+				42BBDB42213A4D9D00080BAC /* ReaderFind@2x.png */,
+				42BBDB43213A4D9D00080BAC /* ReaderCheck@2x.png */,
+				42BBDB44213A4D9D00080BAC /* ReaderCrop@2x.png */,
+				42BBDB45213A4D9D00080BAC /* ReaderCropNone@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		42BBDB59213A4DBD00080BAC /* PDF_Files */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDB5A213A4DBD00080BAC /* Instruments 用户指南.pdf */,
+				42BBDB5B213A4DBD00080BAC /* Functional Programming in Swift.pdf */,
+			);
+			path = PDF_Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42BBDAFB213A4D3B00080BAC /* PDFReader-EasyToRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BBDB28213A4D3C00080BAC /* Build configuration list for PBXNativeTarget "PDFReader-EasyToRead" */;
+			buildPhases = (
+				42BBDAF8213A4D3B00080BAC /* Sources */,
+				42BBDAF9213A4D3B00080BAC /* Frameworks */,
+				42BBDAFA213A4D3B00080BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PDFReader-EasyToRead";
+			productName = "PDFReader-EasyToRead";
+			productReference = 42BBDAFC213A4D3B00080BAC /* PDFReader-EasyToRead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42BBDB13213A4D3C00080BAC /* PDFReader-EasyToReadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BBDB2B213A4D3C00080BAC /* Build configuration list for PBXNativeTarget "PDFReader-EasyToReadTests" */;
+			buildPhases = (
+				42BBDB10213A4D3C00080BAC /* Sources */,
+				42BBDB11213A4D3C00080BAC /* Frameworks */,
+				42BBDB12213A4D3C00080BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42BBDB16213A4D3C00080BAC /* PBXTargetDependency */,
+			);
+			name = "PDFReader-EasyToReadTests";
+			productName = "PDFReader-EasyToReadTests";
+			productReference = 42BBDB14213A4D3C00080BAC /* PDFReader-EasyToReadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42BBDB1E213A4D3C00080BAC /* PDFReader-EasyToReadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BBDB2E213A4D3C00080BAC /* Build configuration list for PBXNativeTarget "PDFReader-EasyToReadUITests" */;
+			buildPhases = (
+				42BBDB1B213A4D3C00080BAC /* Sources */,
+				42BBDB1C213A4D3C00080BAC /* Frameworks */,
+				42BBDB1D213A4D3C00080BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42BBDB21213A4D3C00080BAC /* PBXTargetDependency */,
+			);
+			name = "PDFReader-EasyToReadUITests";
+			productName = "PDFReader-EasyToReadUITests";
+			productReference = 42BBDB1F213A4D3C00080BAC /* PDFReader-EasyToReadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42BBDAF4213A4D3B00080BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LHR;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = dahai;
+				TargetAttributes = {
+					42BBDAFB213A4D3B00080BAC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					42BBDB13213A4D3C00080BAC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 42BBDAFB213A4D3B00080BAC;
+					};
+					42BBDB1E213A4D3C00080BAC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 42BBDAFB213A4D3B00080BAC;
+					};
+				};
+			};
+			buildConfigurationList = 42BBDAF7213A4D3B00080BAC /* Build configuration list for PBXProject "PDFReader-EasyToRead" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42BBDAF3213A4D3B00080BAC;
+			productRefGroup = 42BBDAFD213A4D3B00080BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42BBDAFB213A4D3B00080BAC /* PDFReader-EasyToRead */,
+				42BBDB13213A4D3C00080BAC /* PDFReader-EasyToReadTests */,
+				42BBDB1E213A4D3C00080BAC /* PDFReader-EasyToReadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42BBDAFA213A4D3B00080BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BBDB48213A4D9D00080BAC /* ReaderOutline@2x.png in Resources */,
+				42BBDB0C213A4D3B00080BAC /* LaunchScreen.storyboard in Resources */,
+				42BBDB54213A4D9D00080BAC /* ReaderHome@2x.png in Resources */,
+				42BBDB46213A4D9D00080BAC /* ReaderRibbonOff@2x.png in Resources */,
+				42BBDB49213A4D9D00080BAC /* ReaderCropEven@2x.png in Resources */,
+				42BBDB5D213A4DBD00080BAC /* Functional Programming in Swift.pdf in Resources */,
+				42BBDB4F213A4D9D00080BAC /* ReaderSetting@2x.png in Resources */,
+				42BBDB09213A4D3B00080BAC /* Assets.xcassets in Resources */,
+				42BBDB57213A4D9D00080BAC /* ReaderCrop@2x.png in Resources */,
+				42BBDB55213A4D9D00080BAC /* ReaderFind@2x.png in Resources */,
+				42BBDB07213A4D3B00080BAC /* Main.storyboard in Resources */,
+				42BBDB4A213A4D9D00080BAC /* ReaderHistory@2x.png in Resources */,
+				42BBDB4C213A4D9D00080BAC /* ReaderFolder@2x.png in Resources */,
+				42BBDB4D213A4D9D00080BAC /* ReaderForward@2x.png in Resources */,
+				42BBDB56213A4D9D00080BAC /* ReaderCheck@2x.png in Resources */,
+				42BBDB4B213A4D9D00080BAC /* ReaderBrightness@2x.png in Resources */,
+				42BBDB5C213A4DBD00080BAC /* Instruments 用户指南.pdf in Resources */,
+				42BBDB53213A4D9D00080BAC /* ReaderBack@2x.png in Resources */,
+				42BBDB4E213A4D9D00080BAC /* ReaderCropBoth@2x.png in Resources */,
+				42BBDB58213A4D9D00080BAC /* ReaderCropNone@2x.png in Resources */,
+				42BBDB51213A4D9D00080BAC /* ReaderRibbonOn@2x.png in Resources */,
+				42BBDB50213A4D9D00080BAC /* ReaderDocuments@2x.png in Resources */,
+				42BBDB47213A4D9D00080BAC /* ReaderTabHistory@2x.png in Resources */,
+				42BBDB52213A4D9D00080BAC /* ReaderCropOdd@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDB12213A4D3C00080BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDB1D213A4D3C00080BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42BBDAF8213A4D3B00080BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BBDB04213A4D3B00080BAC /* ViewController.m in Sources */,
+				42BBDB0F213A4D3C00080BAC /* main.m in Sources */,
+				42BBDB01213A4D3B00080BAC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDB10213A4D3C00080BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BBDB19213A4D3C00080BAC /* PDFReader_EasyToReadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDB1B213A4D3C00080BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BBDB24213A4D3C00080BAC /* PDFReader_EasyToReadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42BBDB16213A4D3C00080BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BBDAFB213A4D3B00080BAC /* PDFReader-EasyToRead */;
+			targetProxy = 42BBDB15213A4D3C00080BAC /* PBXContainerItemProxy */;
+		};
+		42BBDB21213A4D3C00080BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BBDAFB213A4D3B00080BAC /* PDFReader-EasyToRead */;
+			targetProxy = 42BBDB20213A4D3C00080BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42BBDB05213A4D3B00080BAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BBDB06213A4D3B00080BAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42BBDB0A213A4D3B00080BAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BBDB0B213A4D3B00080BAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42BBDB26213A4D3C00080BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42BBDB27213A4D3C00080BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42BBDB29213A4D3C00080BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VYWXNWNTK;
+				INFOPLIST_FILE = "PDFReader-EasyToRead/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuhang.PDFReader-EasyToRead.www.PDFReader-EasyToRead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42BBDB2A213A4D3C00080BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VYWXNWNTK;
+				INFOPLIST_FILE = "PDFReader-EasyToRead/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuhang.PDFReader-EasyToRead.www.PDFReader-EasyToRead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42BBDB2C213A4D3C00080BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VYWXNWNTK;
+				INFOPLIST_FILE = "PDFReader-EasyToReadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuhang.PDFReader-EasyToRead.www.PDFReader-EasyToReadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFReader-EasyToRead.app/PDFReader-EasyToRead";
+			};
+			name = Debug;
+		};
+		42BBDB2D213A4D3C00080BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VYWXNWNTK;
+				INFOPLIST_FILE = "PDFReader-EasyToReadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuhang.PDFReader-EasyToRead.www.PDFReader-EasyToReadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFReader-EasyToRead.app/PDFReader-EasyToRead";
+			};
+			name = Release;
+		};
+		42BBDB2F213A4D3C00080BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VYWXNWNTK;
+				INFOPLIST_FILE = "PDFReader-EasyToReadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuhang.PDFReader-EasyToRead.www.PDFReader-EasyToReadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PDFReader-EasyToRead";
+			};
+			name = Debug;
+		};
+		42BBDB30213A4D3C00080BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VYWXNWNTK;
+				INFOPLIST_FILE = "PDFReader-EasyToReadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuhang.PDFReader-EasyToRead.www.PDFReader-EasyToReadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PDFReader-EasyToRead";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42BBDAF7213A4D3B00080BAC /* Build configuration list for PBXProject "PDFReader-EasyToRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BBDB26213A4D3C00080BAC /* Debug */,
+				42BBDB27213A4D3C00080BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BBDB28213A4D3C00080BAC /* Build configuration list for PBXNativeTarget "PDFReader-EasyToRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BBDB29213A4D3C00080BAC /* Debug */,
+				42BBDB2A213A4D3C00080BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BBDB2B213A4D3C00080BAC /* Build configuration list for PBXNativeTarget "PDFReader-EasyToReadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BBDB2C213A4D3C00080BAC /* Debug */,
+				42BBDB2D213A4D3C00080BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BBDB2E213A4D3C00080BAC /* Build configuration list for PBXNativeTarget "PDFReader-EasyToReadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BBDB2F213A4D3C00080BAC /* Debug */,
+				42BBDB30213A4D3C00080BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42BBDAF4213A4D3B00080BAC /* Project object */;
+}
