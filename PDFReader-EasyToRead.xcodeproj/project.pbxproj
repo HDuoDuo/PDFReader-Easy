@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42AD4C9C213A75970082CE8A /* LHRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AD4C9B213A75970082CE8A /* LHRBaseViewController.m */; };
+		42AD4C9F213A75CE0082CE8A /* LHRDocumentsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AD4C9E213A75CE0082CE8A /* LHRDocumentsListViewController.m */; };
 		42BBDB01213A4D3B00080BAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDB00213A4D3B00080BAC /* AppDelegate.m */; };
 		42BBDB04213A4D3B00080BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDB03213A4D3B00080BAC /* ViewController.m */; };
 		42BBDB07213A4D3B00080BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB05213A4D3B00080BAC /* Main.storyboard */; };
@@ -15,17 +17,14 @@
 		42BBDB0F213A4D3C00080BAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDB0E213A4D3C00080BAC /* main.m */; };
 		42BBDB19213A4D3C00080BAC /* PDFReader_EasyToReadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDB18213A4D3C00080BAC /* PDFReader_EasyToReadTests.m */; };
 		42BBDB24213A4D3C00080BAC /* PDFReader_EasyToReadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDB23213A4D3C00080BAC /* PDFReader_EasyToReadUITests.m */; };
-		42BBDB46213A4D9D00080BAC /* ReaderRibbonOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB33213A4D9D00080BAC /* ReaderRibbonOff@2x.png */; };
 		42BBDB47213A4D9D00080BAC /* ReaderTabHistory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB34213A4D9D00080BAC /* ReaderTabHistory@2x.png */; };
 		42BBDB48213A4D9D00080BAC /* ReaderOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB35213A4D9D00080BAC /* ReaderOutline@2x.png */; };
 		42BBDB49213A4D9D00080BAC /* ReaderCropEven@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB36213A4D9D00080BAC /* ReaderCropEven@2x.png */; };
-		42BBDB4A213A4D9D00080BAC /* ReaderHistory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB37213A4D9D00080BAC /* ReaderHistory@2x.png */; };
 		42BBDB4B213A4D9D00080BAC /* ReaderBrightness@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB38213A4D9D00080BAC /* ReaderBrightness@2x.png */; };
 		42BBDB4C213A4D9D00080BAC /* ReaderFolder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB39213A4D9D00080BAC /* ReaderFolder@2x.png */; };
 		42BBDB4D213A4D9D00080BAC /* ReaderForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3A213A4D9D00080BAC /* ReaderForward@2x.png */; };
 		42BBDB4E213A4D9D00080BAC /* ReaderCropBoth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3B213A4D9D00080BAC /* ReaderCropBoth@2x.png */; };
 		42BBDB4F213A4D9D00080BAC /* ReaderSetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3C213A4D9D00080BAC /* ReaderSetting@2x.png */; };
-		42BBDB50213A4D9D00080BAC /* ReaderDocuments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3D213A4D9D00080BAC /* ReaderDocuments@2x.png */; };
 		42BBDB51213A4D9D00080BAC /* ReaderRibbonOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3E213A4D9D00080BAC /* ReaderRibbonOn@2x.png */; };
 		42BBDB52213A4D9D00080BAC /* ReaderCropOdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB3F213A4D9D00080BAC /* ReaderCropOdd@2x.png */; };
 		42BBDB53213A4D9D00080BAC /* ReaderBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB40213A4D9D00080BAC /* ReaderBack@2x.png */; };
@@ -36,6 +35,11 @@
 		42BBDB58213A4D9D00080BAC /* ReaderCropNone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB45213A4D9D00080BAC /* ReaderCropNone@2x.png */; };
 		42BBDB5C213A4DBD00080BAC /* Instruments 用户指南.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB5A213A4DBD00080BAC /* Instruments 用户指南.pdf */; };
 		42BBDB5D213A4DBD00080BAC /* Functional Programming in Swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB5B213A4DBD00080BAC /* Functional Programming in Swift.pdf */; };
+		42BBDB62213A65C800080BAC /* Ipad_StoryboardMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB61213A65C800080BAC /* Ipad_StoryboardMain.storyboard */; };
+		42BBDB64213A65DC00080BAC /* Iphone_StoryboardMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB63213A65DC00080BAC /* Iphone_StoryboardMain.storyboard */; };
+		42BBDB66213A6DB600080BAC /* ReaderDocuments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB65213A6DB600080BAC /* ReaderDocuments@2x.png */; };
+		42BBDB68213A6DFB00080BAC /* ReaderRibbonOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB67213A6DFB00080BAC /* ReaderRibbonOff@2x.png */; };
+		42BBDB6A213A6E1E00080BAC /* ReaderHistory.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDB69213A6E1E00080BAC /* ReaderHistory.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42AD4C9A213A75970082CE8A /* LHRBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHRBaseViewController.h; sourceTree = "<group>"; };
+		42AD4C9B213A75970082CE8A /* LHRBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHRBaseViewController.m; sourceTree = "<group>"; };
+		42AD4C9D213A75CE0082CE8A /* LHRDocumentsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHRDocumentsListViewController.h; sourceTree = "<group>"; };
+		42AD4C9E213A75CE0082CE8A /* LHRDocumentsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHRDocumentsListViewController.m; sourceTree = "<group>"; };
 		42BBDAFC213A4D3B00080BAC /* PDFReader-EasyToRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDFReader-EasyToRead.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BBDAFF213A4D3B00080BAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42BBDB00213A4D3B00080BAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,17 +80,14 @@
 		42BBDB1F213A4D3C00080BAC /* PDFReader-EasyToReadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PDFReader-EasyToReadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BBDB23213A4D3C00080BAC /* PDFReader_EasyToReadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFReader_EasyToReadUITests.m; sourceTree = "<group>"; };
 		42BBDB25213A4D3C00080BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42BBDB33213A4D9D00080BAC /* ReaderRibbonOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderRibbonOff@2x.png"; sourceTree = "<group>"; };
 		42BBDB34213A4D9D00080BAC /* ReaderTabHistory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderTabHistory@2x.png"; sourceTree = "<group>"; };
 		42BBDB35213A4D9D00080BAC /* ReaderOutline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderOutline@2x.png"; sourceTree = "<group>"; };
 		42BBDB36213A4D9D00080BAC /* ReaderCropEven@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderCropEven@2x.png"; sourceTree = "<group>"; };
-		42BBDB37213A4D9D00080BAC /* ReaderHistory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderHistory@2x.png"; sourceTree = "<group>"; };
 		42BBDB38213A4D9D00080BAC /* ReaderBrightness@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderBrightness@2x.png"; sourceTree = "<group>"; };
 		42BBDB39213A4D9D00080BAC /* ReaderFolder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderFolder@2x.png"; sourceTree = "<group>"; };
 		42BBDB3A213A4D9D00080BAC /* ReaderForward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderForward@2x.png"; sourceTree = "<group>"; };
 		42BBDB3B213A4D9D00080BAC /* ReaderCropBoth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderCropBoth@2x.png"; sourceTree = "<group>"; };
 		42BBDB3C213A4D9D00080BAC /* ReaderSetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderSetting@2x.png"; sourceTree = "<group>"; };
-		42BBDB3D213A4D9D00080BAC /* ReaderDocuments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderDocuments@2x.png"; sourceTree = "<group>"; };
 		42BBDB3E213A4D9D00080BAC /* ReaderRibbonOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderRibbonOn@2x.png"; sourceTree = "<group>"; };
 		42BBDB3F213A4D9D00080BAC /* ReaderCropOdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderCropOdd@2x.png"; sourceTree = "<group>"; };
 		42BBDB40213A4D9D00080BAC /* ReaderBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderBack@2x.png"; sourceTree = "<group>"; };
@@ -93,6 +98,11 @@
 		42BBDB45213A4D9D00080BAC /* ReaderCropNone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderCropNone@2x.png"; sourceTree = "<group>"; };
 		42BBDB5A213A4DBD00080BAC /* Instruments 用户指南.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Instruments 用户指南.pdf"; sourceTree = "<group>"; };
 		42BBDB5B213A4DBD00080BAC /* Functional Programming in Swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Functional Programming in Swift.pdf"; sourceTree = "<group>"; };
+		42BBDB61213A65C800080BAC /* Ipad_StoryboardMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ipad_StoryboardMain.storyboard; sourceTree = "<group>"; };
+		42BBDB63213A65DC00080BAC /* Iphone_StoryboardMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Iphone_StoryboardMain.storyboard; sourceTree = "<group>"; };
+		42BBDB65213A6DB600080BAC /* ReaderDocuments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderDocuments@2x.png"; sourceTree = "<group>"; };
+		42BBDB67213A6DFB00080BAC /* ReaderRibbonOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReaderRibbonOff@2x.png"; sourceTree = "<group>"; };
+		42BBDB69213A6E1E00080BAC /* ReaderHistory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReaderHistory.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +130,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42AD4C98213A755C0082CE8A /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				42AD4C9A213A75970082CE8A /* LHRBaseViewController.h */,
+				42AD4C9B213A75970082CE8A /* LHRBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		42AD4C99213A756A0082CE8A /* All Documents */ = {
+			isa = PBXGroup;
+			children = (
+				42AD4C9D213A75CE0082CE8A /* LHRDocumentsListViewController.h */,
+				42AD4C9E213A75CE0082CE8A /* LHRDocumentsListViewController.m */,
+			);
+			path = "All Documents";
+			sourceTree = "<group>";
+		};
 		42BBDAF3213A4D3B00080BAC = {
 			isa = PBXGroup;
 			children = (
@@ -143,16 +171,10 @@
 		42BBDAFE213A4D3B00080BAC /* PDFReader-EasyToRead */ = {
 			isa = PBXGroup;
 			children = (
+				42BBDB60213A657300080BAC /* SBIpadAndIphone */,
+				42BBDB5E213A4E9A00080BAC /* Classes */,
 				42BBDB31213A4D9D00080BAC /* Resources */,
-				42BBDAFF213A4D3B00080BAC /* AppDelegate.h */,
-				42BBDB00213A4D3B00080BAC /* AppDelegate.m */,
-				42BBDB02213A4D3B00080BAC /* ViewController.h */,
-				42BBDB03213A4D3B00080BAC /* ViewController.m */,
-				42BBDB05213A4D3B00080BAC /* Main.storyboard */,
-				42BBDB08213A4D3B00080BAC /* Assets.xcassets */,
-				42BBDB0A213A4D3B00080BAC /* LaunchScreen.storyboard */,
-				42BBDB0D213A4D3C00080BAC /* Info.plist */,
-				42BBDB0E213A4D3C00080BAC /* main.m */,
+				42BBDB5F213A4F0200080BAC /* SupportFiles */,
 			);
 			path = "PDFReader-EasyToRead";
 			sourceTree = "<group>";
@@ -187,17 +209,17 @@
 		42BBDB32213A4D9D00080BAC /* images */ = {
 			isa = PBXGroup;
 			children = (
-				42BBDB33213A4D9D00080BAC /* ReaderRibbonOff@2x.png */,
+				42BBDB69213A6E1E00080BAC /* ReaderHistory.png */,
+				42BBDB67213A6DFB00080BAC /* ReaderRibbonOff@2x.png */,
 				42BBDB34213A4D9D00080BAC /* ReaderTabHistory@2x.png */,
 				42BBDB35213A4D9D00080BAC /* ReaderOutline@2x.png */,
 				42BBDB36213A4D9D00080BAC /* ReaderCropEven@2x.png */,
-				42BBDB37213A4D9D00080BAC /* ReaderHistory@2x.png */,
 				42BBDB38213A4D9D00080BAC /* ReaderBrightness@2x.png */,
+				42BBDB65213A6DB600080BAC /* ReaderDocuments@2x.png */,
 				42BBDB39213A4D9D00080BAC /* ReaderFolder@2x.png */,
 				42BBDB3A213A4D9D00080BAC /* ReaderForward@2x.png */,
 				42BBDB3B213A4D9D00080BAC /* ReaderCropBoth@2x.png */,
 				42BBDB3C213A4D9D00080BAC /* ReaderSetting@2x.png */,
-				42BBDB3D213A4D9D00080BAC /* ReaderDocuments@2x.png */,
 				42BBDB3E213A4D9D00080BAC /* ReaderRibbonOn@2x.png */,
 				42BBDB3F213A4D9D00080BAC /* ReaderCropOdd@2x.png */,
 				42BBDB40213A4D9D00080BAC /* ReaderBack@2x.png */,
@@ -217,6 +239,40 @@
 				42BBDB5B213A4DBD00080BAC /* Functional Programming in Swift.pdf */,
 			);
 			path = PDF_Files;
+			sourceTree = "<group>";
+		};
+		42BBDB5E213A4E9A00080BAC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42AD4C99213A756A0082CE8A /* All Documents */,
+				42AD4C98213A755C0082CE8A /* BaseViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		42BBDB5F213A4F0200080BAC /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDAFF213A4D3B00080BAC /* AppDelegate.h */,
+				42BBDB00213A4D3B00080BAC /* AppDelegate.m */,
+				42BBDB02213A4D3B00080BAC /* ViewController.h */,
+				42BBDB03213A4D3B00080BAC /* ViewController.m */,
+				42BBDB05213A4D3B00080BAC /* Main.storyboard */,
+				42BBDB08213A4D3B00080BAC /* Assets.xcassets */,
+				42BBDB0A213A4D3B00080BAC /* LaunchScreen.storyboard */,
+				42BBDB0D213A4D3C00080BAC /* Info.plist */,
+				42BBDB0E213A4D3C00080BAC /* main.m */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		42BBDB60213A657300080BAC /* SBIpadAndIphone */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDB61213A65C800080BAC /* Ipad_StoryboardMain.storyboard */,
+				42BBDB63213A65DC00080BAC /* Iphone_StoryboardMain.storyboard */,
+			);
+			path = SBIpadAndIphone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,27 +380,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				42BBDB48213A4D9D00080BAC /* ReaderOutline@2x.png in Resources */,
+				42BBDB64213A65DC00080BAC /* Iphone_StoryboardMain.storyboard in Resources */,
 				42BBDB0C213A4D3B00080BAC /* LaunchScreen.storyboard in Resources */,
 				42BBDB54213A4D9D00080BAC /* ReaderHome@2x.png in Resources */,
-				42BBDB46213A4D9D00080BAC /* ReaderRibbonOff@2x.png in Resources */,
+				42BBDB68213A6DFB00080BAC /* ReaderRibbonOff@2x.png in Resources */,
+				42BBDB62213A65C800080BAC /* Ipad_StoryboardMain.storyboard in Resources */,
 				42BBDB49213A4D9D00080BAC /* ReaderCropEven@2x.png in Resources */,
+				42BBDB6A213A6E1E00080BAC /* ReaderHistory.png in Resources */,
 				42BBDB5D213A4DBD00080BAC /* Functional Programming in Swift.pdf in Resources */,
 				42BBDB4F213A4D9D00080BAC /* ReaderSetting@2x.png in Resources */,
 				42BBDB09213A4D3B00080BAC /* Assets.xcassets in Resources */,
 				42BBDB57213A4D9D00080BAC /* ReaderCrop@2x.png in Resources */,
 				42BBDB55213A4D9D00080BAC /* ReaderFind@2x.png in Resources */,
 				42BBDB07213A4D3B00080BAC /* Main.storyboard in Resources */,
-				42BBDB4A213A4D9D00080BAC /* ReaderHistory@2x.png in Resources */,
 				42BBDB4C213A4D9D00080BAC /* ReaderFolder@2x.png in Resources */,
 				42BBDB4D213A4D9D00080BAC /* ReaderForward@2x.png in Resources */,
 				42BBDB56213A4D9D00080BAC /* ReaderCheck@2x.png in Resources */,
+				42BBDB66213A6DB600080BAC /* ReaderDocuments@2x.png in Resources */,
 				42BBDB4B213A4D9D00080BAC /* ReaderBrightness@2x.png in Resources */,
 				42BBDB5C213A4DBD00080BAC /* Instruments 用户指南.pdf in Resources */,
 				42BBDB53213A4D9D00080BAC /* ReaderBack@2x.png in Resources */,
 				42BBDB4E213A4D9D00080BAC /* ReaderCropBoth@2x.png in Resources */,
 				42BBDB58213A4D9D00080BAC /* ReaderCropNone@2x.png in Resources */,
 				42BBDB51213A4D9D00080BAC /* ReaderRibbonOn@2x.png in Resources */,
-				42BBDB50213A4D9D00080BAC /* ReaderDocuments@2x.png in Resources */,
 				42BBDB47213A4D9D00080BAC /* ReaderTabHistory@2x.png in Resources */,
 				42BBDB52213A4D9D00080BAC /* ReaderCropOdd@2x.png in Resources */,
 			);
@@ -373,6 +431,8 @@
 			files = (
 				42BBDB04213A4D3B00080BAC /* ViewController.m in Sources */,
 				42BBDB0F213A4D3C00080BAC /* main.m in Sources */,
+				42AD4C9F213A75CE0082CE8A /* LHRDocumentsListViewController.m in Sources */,
+				42AD4C9C213A75970082CE8A /* LHRBaseViewController.m in Sources */,
 				42BBDB01213A4D3B00080BAC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

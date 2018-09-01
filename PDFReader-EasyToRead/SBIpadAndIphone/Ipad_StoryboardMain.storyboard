@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ckc-pl-knl">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Recently Read-->
+        <scene sceneID="llz-Rk-Zl3">
+            <objects>
+                <viewController id="8B3-eJ-gXo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ru8-Sd-0m1">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WqO-h6-SC9">
+                                <rect key="frame" x="0.0" y="64" width="768" height="911"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DocumentsIdentifierIpadCell" id="1Bm-hi-0Mh">
+                                        <rect key="frame" x="0.0" y="28" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Bm-hi-0Mh" id="hnC-HN-TWf">
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WqO-h6-SC9" firstAttribute="top" secondItem="Ycd-4G-ejz" secondAttribute="top" id="HeP-qV-UF8"/>
+                            <constraint firstItem="Ycd-4G-ejz" firstAttribute="trailing" secondItem="WqO-h6-SC9" secondAttribute="trailing" id="Sgt-Pe-ytG"/>
+                            <constraint firstItem="Ycd-4G-ejz" firstAttribute="bottom" secondItem="WqO-h6-SC9" secondAttribute="bottom" id="fw7-Sm-TeS"/>
+                            <constraint firstItem="WqO-h6-SC9" firstAttribute="leading" secondItem="Ycd-4G-ejz" secondAttribute="leading" id="mKa-rC-ObL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ycd-4G-ejz"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Recently Read" id="Vlw-sp-xuB">
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="no7-WF-Yft"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ndD-MF-Y2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1003.125" y="413.671875"/>
+        </scene>
+        <!--All Documents-->
+        <scene sceneID="Ze4-eh-tct">
+            <objects>
+                <viewController id="ZHv-oG-3Wf" customClass="LHRDocumentsListViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qp9-5i-pxR">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NYM-0d-zfk">
+                                <rect key="frame" x="0.0" y="64" width="768" height="911"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cDd-xo-eXe">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DcoumentsIdentifierCollectionIpadCell" id="yRu-lu-18h">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pAa-A1-V8O" firstAttribute="bottom" secondItem="NYM-0d-zfk" secondAttribute="bottom" id="0wr-7F-LqP"/>
+                            <constraint firstItem="NYM-0d-zfk" firstAttribute="top" secondItem="pAa-A1-V8O" secondAttribute="top" id="UdQ-DU-iW2"/>
+                            <constraint firstItem="NYM-0d-zfk" firstAttribute="leading" secondItem="pAa-A1-V8O" secondAttribute="leading" id="VHf-OW-YgD"/>
+                            <constraint firstItem="pAa-A1-V8O" firstAttribute="trailing" secondItem="NYM-0d-zfk" secondAttribute="trailing" id="yuS-Ky-6n4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pAa-A1-V8O"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="All Documents" id="NmW-qx-n3U">
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="Pxv-sJ-QbX"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ka5-v6-5Mb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1003.125" y="-228.51562499999997"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="jBt-a8-ZbY">
+            <objects>
+                <tabBarController id="ckc-pl-knl" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0FE-LG-phr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="MqE-gq-mfl" kind="relationship" relationship="viewControllers" id="iw8-cp-tsI"/>
+                        <segue destination="ZvI-QC-oPU" kind="relationship" relationship="viewControllers" id="A21-La-Z6q"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O3z-PD-wH0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-534" y="93"/>
+        </scene>
+        <!--All Documents-->
+        <scene sceneID="F6f-gx-7xp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MqE-gq-mfl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="All Documents" image="ReaderDocuments.png" id="T6P-wN-qwe"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qpB-4r-5F2">
+                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZHv-oG-3Wf" kind="relationship" relationship="rootViewController" id="dw3-sV-yhF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ztg-KL-bId" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="237.5" y="-228.51562499999997"/>
+        </scene>
+        <!--Recently Read-->
+        <scene sceneID="wJI-3d-LYA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZvI-QC-oPU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Recently Read" image="ReaderTabHistory.png" id="OGf-av-wn6"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cSF-mK-NEl">
+                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8B3-eJ-gXo" kind="relationship" relationship="rootViewController" id="X9o-4U-hsc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZXn-rs-ula" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="237.5" y="413.671875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ReaderDocuments.png" width="27" height="27"/>
+        <image name="ReaderTabHistory.png" width="30" height="30"/>
+    </resources>
+</document>
